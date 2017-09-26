@@ -346,7 +346,11 @@ input[type=submit] {
     max-width: 650px;
     margin-bottom: 5%;
   }
-
+  .work {
+    width: 545px;
+    height: 410px;
+  }
+}
 
     
 
