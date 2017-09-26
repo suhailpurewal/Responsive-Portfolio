@@ -277,14 +277,76 @@ input[type=submit] {
     color: green;
   }
   .main-section {
-    width: 95%;
+    width: 90%;
     position: static;
     margin-left: 5%;
+    margin-right: 5%;
   }
   .sidebar {
-    width: 95%;
-    display: block;
+    width: 100%;
+    left: -65px;
+    max-width: 650px;
+  }
+  #logo {
+    position: relative;
+    left: 40px;
+    color: green;
   }
 }
+
+@media only screen and (max-width: 640px) {
+  h1 {
+    color: purple;
+  }
+  #mastheader {
+    position: static;
+    left: 0px;
+    width: 100%;
+  }
+    #logo {
+    color: purple;
+    width: 100%;
+    position: relative;
+    left: 0px;
+  }
+    #toplinks {
+    position: relative;
+    right: 27%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+  }
+  #about {
+    position: relative;
+    right: 38%;
+  }
+  #port {
+    position: relative;
+    right: 8%;
+  }
+  #cont {
+    position: relative;
+    right: -20%;
+  }
+    .main-section {
+    width: 95%;
+    position: static;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 5%;
+  }
+    .auth-image {
+    width: 510px;
+    height: 400px;
+    object-fit: contain;
+  }
+    .sidebar {
+    width: 95%;
+    left: -15px;
+    max-width: 650px;
+    margin-bottom: 5%;
+  }
+
+
     
 
