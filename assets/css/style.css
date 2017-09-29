@@ -119,6 +119,7 @@ footer {
   margin-bottom: 20px;
   background: #fff;
   border: 1px solid #ddd;
+  text-align: center;
 }
 
 h3,
@@ -241,9 +242,7 @@ input[type=submit] {
 /* media query stuff */
 
 @media only screen and (max-width: 980px) {
-  h1 {
-    color: red;
-  }
+
   .main-section {
     width: 43%;
     height: 60%;
@@ -259,7 +258,6 @@ input[type=submit] {
   #logo {
     position: relative;
     left: 128px;
-    color: red;
   }
   #toplinks {
     position: relative;
@@ -273,9 +271,7 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 768px) {
-  h1 {
-    color: green;
-  }
+
   .main-section {
     width: 90%;
     position: static;
@@ -290,21 +286,17 @@ input[type=submit] {
   #logo {
     position: relative;
     left: 40px;
-    color: green;
   }
 }
 
 @media only screen and (max-width: 640px) {
-  h1 {
-    color: purple;
-  }
+
   #mastheader {
     position: static;
     left: 0px;
     width: 100%;
   }
     #logo {
-    color: purple;
     width: 100%;
     position: relative;
     left: 0px;
